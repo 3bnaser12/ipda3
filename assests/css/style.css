@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'cairo', sans-serif;
+    
+}
+button:focus{
+    outline: none;
+}
+
+
+/* navbar */
+
+.navbar-brand img{
+    height: 70px;
+}
+.navbar-toggler{
+    border: none;
+    
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(59,173,203, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    
+}
+.navbar-collapse{
+    text-align: left;
+}
+
+/* navbar */
+
+
+/* header section */
+img{
+    max-width: 100%;
+}
+.slogan-box{
+    background-image: url(../../imgs/header-side.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.slogan-box h1{
+    margin-top: 180px;
+    font-weight: 900;
+    font-size: 50px;
+    margin-right: 5%;
+}
+.slogan-img img{
+    margin-top: 20px;
+}
+
+/* header section */
+
+
+/* who are we */
+
+
+
+.slogan2 hr{
+    background-color: rgb(59, 173, 230);
+    color: rgb(59, 173, 230);
+    height: 2px;
+    width: 5%;
+    margin-bottom: 50px;
+}
+.slogan2 h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.slogan2 img{
+    padding-left: 10%;
+}
+.slogan2 h2{
+    margin-top: 100px;
+    padding-right: 10%;
+}
+
+
+
+/* who are we */
+
+
+
+/* what we offer */
+
+
+
+.whr{
+    background-color: rgb(59, 173, 230);
+    border: 0 none;
+    color: rgb(59, 173, 230);
+    height: 2px;
+    width: 5%;
+    margin-bottom: 50px;
+}
+.wwh{
+    text-align: center;
+    margin-top: 50px;
+}
+.slogan-offer{
+    background-image: url(../../imgs/we-offer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 680px;
+    margin-top: 30px;
+    
+    
+}
+.slider{
+    height: 400px; 
+    background-color: #ffffff;
+    margin-top: 90px;
+    border-radius: 7%;
+    border: 1px solid #e3e3e3;
+    
+} 
+.slider img{
+    width: 50% !important;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+}
+.para{
+    color: #54b7e8;
+    margin-top: 10px;
+}
+.slogan-offer p{
+    font-size: 20px;
+    
+}
+.owl-nav{
+    text-align: center;
+    margin-top: 60px;
+}
+.slogan-offer span{
+    
+    font-size: 40px;
+    color:#797b96;
+    margin: 20px;
+    
+}
+.slogan-offer span:active{
+    color: black
+}
+
+
+
+/* what we offer */
+
+
+
+/* some of our work */
+
+.slogan-work{
+    background-image: url(../../imgs/bg30-Ar1web.gif);
+    height: 970px;
+    margin-top: 30px;
+}
+.slogan-work .work1{
+    height: 350px;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 5px 5px 20px;
+    color: #233142;
+    
+    
+}
+
+.work1 img{
+    border-radius: 5%;
+    width: 100%;
+    margin-bottom: 25px;
+
+}
+.work1 p{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.show-work{
+    text-align:center;
+    background-color:  #233142;
+    width: 20%;
+    text-decoration: none;
+    height: 40px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px;
+    color: #233142;
+    float: left;
+    position: relative;
+    left: 40%;
+    margin-top: 40px;
+    
+
+}
+
+.show-work p{
+    color: #e3e3e3;
+    padding-top:7px ;
+    font-size: 18px
+    
+}
+.show-work p:hover{
+    color: #54b7e8;
+}
+
+
+/* some of our work */
+
+
+/* article */
+
+
+.article .art1{
+    height: 450px;
+    background-color: white;
+    border-radius: 5%;
+    margin-top: 80px;
+    box-shadow: 5px 5px 20px;
+    color: #233142;
+    margin-right: 40px;
+    margin-left: 40px;
+    
+    
+}
+
+.art1 img{
+    border-radius: 5%;
+    width: 100%;
+    margin-bottom: 25px;
+
+}
+.art1 .micro{
+font-size: 20px;
+font-weight: bold;
+padding:0px 10% 0px 10%;
+
+
+}
+.eye{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    float: left;
+}
+.eye span{
+    color:#b9c2ca;
+    margin-left: 10px;
+    font-weight: 200;
+}
+
+.read{
+    text-align:center;
+    background-color:  #233142;
+    width: 20%;
+    margin-right: 30px;
+    text-decoration: none;
+    height: 40px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px;
+    color: #233142;
+    float: right;
+    margin-top: 20px;
+
+}
+
+
+.read-now p{
+    color: #e3e3e3;
+    padding-top:5px ;
+    font-size: 18px;
+    
+}
+.read-now p:hover{
+    color: #54b7e8;
+}
+.more-info{
+    text-align:center;
+    background-color:  #233142;
+    width: 20%;
+    margin-right: 30px;
+    text-decoration: none;
+    height: 40px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px;
+    color: #233142;
+    float: left;
+    position: relative;
+    left: 40%;
+    
+    margin-top: 40px;
+    margin-bottom: 80px;
+
+}
+
+.more-info p{
+    color: #e3e3e3;
+    padding-top:5px ;
+    font-size: 20px;
+    
+}
+.more-info p:hover{
+    color: #54b7e8;
+}
+
+/* article */
+
+
+
+/* customers */
+
+
+
+.slogan-customer{
+    background-image: url(../../imgs/our-client-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 510px;
+    margin-top: 30px;
+    
+    
+}
+.slider2 img{
+    width: 70% !important;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 130px;
+}
+.slogan-customer span{
+    
+    font-size: 45px;
+    color:#5c5c61;
+    margin: 20px;
+    
+}
+.slogan-customer span:active{
+    color: black
+}
+
+
+/* customers */
+
+
+
+/* footer */
+
+
+
+.footer{
+
+    background-image: url(../../imgs/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+}
+.footer img{
+    width: 50% !important;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 120px;
+}
+.footer h4{
+    margin:30px 0px 30px 0px;
+    color: #e3e3e3;
+}
+.footer i{
+    font-size: 35px;
+    color: #e3e3e3;
+    margin-right: 30px;
+}
+
+/* footer */
