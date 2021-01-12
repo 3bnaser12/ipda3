@@ -175,7 +175,11 @@ img{
 .work1 p{
     font-size: 18px;
     font-weight: 600;
+    color: #212529;
 
+}
+.work1 a{
+    text-decoration: none;
 }
 .show-work{
     text-align:center;

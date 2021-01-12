@@ -1,4 +1,3 @@
-
 body{
     font-family: 'cairo', sans-serif;
 }
@@ -39,35 +38,85 @@ button:focus{
 .head{
     padding-top: 40px;
 }
+/* article */
 
-.slogan-work{
-    background-image: url(../../imgs/bg30-Ar1web.gif);
-    height: 1600px;
+.article{
+    background-image: url("../../imgs/articles.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 50px;
 }
-.slogan-work .work1{
-    height: 350px;
+.article .art1{
+    height: 450px;
     background-color: white;
     border-radius: 5%;
+    margin-top: 80px;
     box-shadow: 5px 5px 20px;
     color: #233142;
+    margin-right: 40px;
+    margin-left: 40px;
     
     
 }
 
-.work1 img{
+.art1 img{
     border-radius: 5%;
     width: 100%;
     margin-bottom: 25px;
 
 }
-.work1 p{
-    font-size: 18px;
-    font-weight: 600;
+.art1 .micro{
+font-size: 20px;
+font-weight: bold;
+padding:0px 10% 0px 10%;
+
 
 }
-.slogan-work nav{
+.eye{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    float: left;
+}
+.eye span{
+    color:#b9c2ca;
+    margin-left: 10px;
+    font-weight: 200;
+}
+
+.read{
+    text-align:center;
+    background-color:  #233142;
+    width: 20%;
+    margin-right: 30px;
+    text-decoration: none;
+    height: 40px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px;
+    color: #233142;
+    float: right;
+    margin-top: 20px;
+
+}
+
+
+.read-now p{
+    color: #e3e3e3;
+    padding-top:5px ;
+    font-size: 18px;
+    
+}
+.read-now p:hover{
+    color: #54b7e8;
+}
+
+.article nav{
     position: relative;
-    right: 40%;
+    left: 36.5%;
+    margin-bottom: 100px;
+   
+   
 }
 .pagination{
     text-align:center;
@@ -85,15 +134,7 @@ button:focus{
     color: white;
 }
 
-
-
-
-
-
-
-
-/* some of our work */
-
+/* article */
 /* footer */
 
 
