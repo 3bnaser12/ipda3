@@ -41,7 +41,7 @@ img{
 .slogan-box h1{
     margin-top: 180px;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 40px;
     margin-right: 5%;
 }
 .slogan-img img{
@@ -65,6 +65,7 @@ img{
 .slogan2 h1{
     text-align: center;
     margin-top: 50px;
+    font-size: 35px;
 }
 .slogan2 img{
     padding-left: 10%;
@@ -72,6 +73,7 @@ img{
 .slogan2 h2{
     margin-top: 100px;
     padding-right: 10%;
+    font-size: 30px;
 }
 
 
@@ -96,6 +98,7 @@ img{
 .wwh{
     text-align: center;
     margin-top: 50px;
+    font-size: 35px;
 }
 .slogan-offer{
     background-image: url(../../imgs/we-offer.png);
@@ -249,7 +252,7 @@ padding:0px 10% 0px 10%;
     float: left;
 }
 .eye span{
-    color:#b9c2ca;
+    color:#a4a6a8;
     margin-left: 10px;
     font-weight: 200;
 }

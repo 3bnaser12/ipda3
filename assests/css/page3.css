@@ -37,6 +37,7 @@ button:focus{
 }
 .head{
     padding-top: 40px;
+    font-size: 35px;
 }
 /* article */
 
@@ -80,7 +81,7 @@ padding:0px 10% 0px 10%;
     float: left;
 }
 .eye span{
-    color:#b9c2ca;
+    color:#a4a6a8;
     margin-left: 10px;
     font-weight: 200;
 }
