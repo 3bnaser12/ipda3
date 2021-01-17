@@ -20,34 +20,34 @@ $(document).ready(function(){
             loop:true
         }
     }
+    
 
     });
-  });
-  $(document).ready(function(){
     $(".customer-carousel").owlCarousel({
-        rtl:true,
-        margin:10,
-        nav:true,
-        loop:true,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:true
-        },
-        600:{
-            items:2,
-            nav:false
-        },
-        1000:{
-            items:4,
-            nav:true,
-            loop:true
-        }
-    }
+      rtl:true,
+      margin:10,
+      nav:true,
+      loop:true,
+  responsiveClass:true,
+  responsive:{
+      0:{
+          items:1,
+          nav:true
+      },
+      600:{
+          items:2,
+          nav:false
+      },
+      1000:{
+          items:4,
+          nav:true,
+          loop:true
+      }
+  }
 
-    });
   });
+  });
+  
   $num = $('.my-card').length;
   $even = $num / 2;
   $odd = ($num + 1) / 2;
